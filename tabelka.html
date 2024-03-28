@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<title> Fajna Tabelka</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+
+<script type="text/javascript" src="script.js" async>
+
+
+ </script>
+</head>
+<body>
+
+<div id="container">
+
+<div id="tab">
+
+	<table  id="mainTable">
+	
+		
+	</table>
+
+	<button onclick="upArrow()">&ShortUpArrow; </button>
+	<button onclick ="downArrow()"> &ShortDownArrow;</button>
+	<button onclick ="addRow()"> Dodaj Wiersz</button>
+	<button onclick ="removeRow()"> Usun Wiersz</button>
+
+	<span id="suma"> Liczba wierszy: </span>
+</div>
+<div id="dataDiv">
+
+	<form>
+	
+		<div class="editField">
+		<label>	 <input type="text" id="winner" required> Zwycięzca </label>
+		</div>
+		
+		<div class="editField">
+		<label>	 <input type="text" id="place" required> Miejsce </label>
+		</div>
+		
+		<div class="editField">
+		<label>	 <input type="text" id="date" required> Data </label>
+		</div>
+		
+		
+	</form>
+	<div class="editField">
+			
+			<button onclick ="enterData()"> Wprowadź dane</button>
+	
+		</div>
+</div>
+
+</div>
+
+</body>
+</html>

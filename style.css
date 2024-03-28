@@ -1,0 +1,74 @@
+body{
+	
+	background-color:#ABABAB;
+}
+
+table,tr,td{
+	
+	border: solid black 1px;
+
+}
+
+
+#mainTable
+{
+	
+		background-color:cyan;
+			
+	
+}
+
+#mainTable:hover
+{
+		cursor:pointer;
+		
+}
+
+
+#container
+{
+	margin-right:auto;
+	margin-left:auto;
+		
+	
+}
+
+#tab
+{
+
+	min-width:600px;
+	min-height:400px;
+	background-color:gray;
+	float:left;
+
+	
+}
+#dataDiv
+{
+	min-width:560px;
+	min-height:360px;
+	background-color:gold;
+	float:left;
+	padding:20px;
+
+
+}
+	
+.editField
+{
+
+	margin-top:5px;	
+}
+	
+	
+.rows{
+	
+	font-size:50px!important;
+}
+	
+	
+	
+	
+	
+	
+	
